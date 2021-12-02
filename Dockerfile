@@ -1,3 +1,3 @@
 FROM alpine:latest
-RUN apk-get -y update 
-RUN apk-get -y install build-essential
+RUN apk update -y
+RUN apk -y install build-essential
