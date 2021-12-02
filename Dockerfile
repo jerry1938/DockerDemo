@@ -1,3 +1,3 @@
 FROM alpine:latest
 RUN apk update
-RUN apk install build-essential
+RUN apk add build-essential
